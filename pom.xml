@@ -200,17 +200,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <!-- 指定发布的仓库位置 -->
-    <distributionManagement>
-        <repository>
-            <id>rdc-releases</id>
-            <url>https://packages.aliyun.com/maven/repository/2216689-release-iuoqkD/</url>
-        </repository>
-        <snapshotRepository>
-            <id>rdc-snapshots</id>
-            <url>https://packages.aliyun.com/maven/repository/2216689-snapshot-SM6T5i</url>
-        </snapshotRepository>
-    </distributionManagement>
-
 </project>
